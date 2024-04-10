@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai tap tong hop form va table</title>
+
+</head>
+<style>
+   .form{
+    border: 1px solid rgb(18, 18, 18);
+    padding: 20px;
+    position: relative;
+
+    }
+    .label {
+        margin-bottom: 10px;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+
+    }
+</style>
+<body>
+    <form>
+        <div class="form">
+            <div class="label">
+                <label for="text" style="background-color: white;"> thong tin san pham  </label>
+            </div>
+            <div class="input">
+                <label for="text">ten san pham</label>
+                <input type="text" name="text" id="">
+                <label for="number">so luong</label>
+                <input type="number" name="number" id="">
+            </div>
+        </div>
+
+        <br>
+        <div class="form">
+            <div class="label">
+                <label for="text"style="background-color: white;"> thong tin giao hang  </label>
+            </div>
+            <div class="input">
+                <label for="fullname">ho va ten</label>
+                <input type="text" name="fullname" id="fullname">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+                <label for="number">so dien thoai</label>
+                <input type="number" name="number" id="">
+            </div>
+            <div>
+                <label for="number">so dien thoai</label>
+                <textarea></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="form">
+            <div class="label">
+                <label for="text" style="background-color: white;"> thong tin thanh </label>
+            </div>
+            <div class="input">
+                <label for="text">Phuong thuc thanh toan:</label>
+                <select>
+                    <option>Thanh toan khi nhan hang</option>
+                    <option>Thanh toan tra sau</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
